@@ -203,3 +203,4 @@ resource "azurerm_virtual_machine" "jumpbox" {
 
  tags = var.tags
 }
+
