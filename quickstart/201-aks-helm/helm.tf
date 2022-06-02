@@ -18,3 +18,4 @@ resource "helm_release" "ghost" {
 
   depends_on = ["kubernetes_cluster_role_binding.tiller"]
 }
+
